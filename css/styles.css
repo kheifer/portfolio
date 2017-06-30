@@ -1,3 +1,4 @@
+
 .jumbotron{
   background-color: #9fdad0;
   width: 100%;
@@ -17,7 +18,7 @@
 }
 
 .image{
-  display: block;
+  display: inline-block;
   width: 80%;
   height: auto;
 }
