@@ -12,9 +12,13 @@
   width: 100%;
 }
 #portfolio{
-  background-color: #21cbe0;
+  background-color: #f8f8f8;
   padding: 2em;
+}
 
+#portfolio h2{
+  color:#e55f2c;
+  text-align: center;
 }
 #about{
   background-color: black;
