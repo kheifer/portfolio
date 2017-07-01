@@ -16,10 +16,10 @@ _In order to view this portfolio directly visit http://kheifer.github.io/portfol
 
 
 ## Known Bugs
-
+_The clickable "project icons" are not functional and as such don't lead to any projects_
 
 ## Support and contact details
-_In case of any issues please contact kheifer.fuller@gmail.com_
+_In case of any issues please contact http://github.com/kheifer_
 
 
 ## Technologies Used
