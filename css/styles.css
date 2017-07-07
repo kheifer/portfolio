@@ -1,5 +1,4 @@
 /*HEADER*/
-
 .jumbotron {
   background-color: #21cbe0;
   background-image: url("../img/background.jpg");
@@ -17,10 +16,6 @@
  h1, h2 {
   color: #71d7f1;
 }
-
-/*.jumbotron h2 {
-  color: #e55f2c;
-}*/
 
 #logo {
   border-radius: 50%;
@@ -79,7 +74,6 @@
   transform: translate(-50%, -50%);
 }
 
-
 /*ABOUT*/
 
 /*FOOTER*/
@@ -88,6 +82,7 @@
   margin: auto 5px 0px 0px !important;
   padding: 5px;
   text-align: center;
+  float:inherit;
 }
 
 .links li {
@@ -109,7 +104,9 @@ img.social {
   border-top: solid 2px #19A352;
   text-align: center;
 }
-
+.name{
+  float: right;
+}
 
 /*body*/
 
