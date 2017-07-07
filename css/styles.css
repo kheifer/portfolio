@@ -1,42 +1,59 @@
 /*HEADER*/
-.jumbotron{
+
+.jumbotron {
   background-color: #21cbe0;
   background-image: url("../img/background.jpg");
   background-size: cover;
   width: 100%;
-  height: ;
+  height:inherit;
 }
+
 .jumbotron h1{
   color: #71d7f1;
+  text-align: center;
+  text-shadow:
 }
-.jumbotron h2{
+
+ h1, h2 {
+  color: #71d7f1;
+}
+
+/*.jumbotron h2 {
   color: #e55f2c;
-}
-#logo{
+}*/
+
+#logo {
   border-radius: 50%;
   display: block;
   width: 100%;
 }
+
+
 /*BACKGROUND*/
-#portfolio{
+
+#portfolio {
   background-color: #f8f8f8;
   padding: 2em;
 }
-#portfolio h2{
-  color:#e55f2c;
+
+#portfolio h2 {
+  color: #e55f2c;
   text-align: center;
 }
-#background .row li{
+
+#background .row li {
   text-align: center;
   padding: 2em;
 }
-.image{
+
+.image {
   display: inline-block;
   width: 80%;
   height: auto;
   border-radius: 50%;
 }
-.overlay{
+
+.overlay {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -48,10 +65,12 @@
   transition: .5s ease;
   background-color: #9fdad0;
 }
-.project:hover .overlay{
+
+.project:hover .overlay {
   opacity: 1;
 }
-.text{
+
+.text {
   color: white;
   font-size: 20px;
   position: absolute;
@@ -59,30 +78,41 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+
 /*ABOUT*/
+
 /*FOOTER*/
-.links{
-	margin: auto 5px 0px 0px !important;
-	padding: 5px;
+
+.links {
+  margin: auto 5px 0px 0px !important;
+  padding: 5px;
   text-align: center;
 }
-.links li{
-  	display: inline-block;
+
+.links li {
+  display: inline-block;
 }
+
 img.social {
   width: 40px;
   height: auto;
 }
-.links li{
-  	display: inline-block;
+
+.links li {
+  display: inline-block;
 }
-.copy{
-	margin-top: 10px;
-	margin-left: 6px;
+
+.copy {
+  margin-top: 10px;
+  margin-left: 6px;
   border-top: solid 2px #19A352;
-	text-align: center;
+  text-align: center;
 }
+
+
 /*body*/
+
 ul, ol {
   list-style: none;
   padding: 0;
